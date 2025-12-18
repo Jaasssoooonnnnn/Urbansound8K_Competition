@@ -1,7 +1,7 @@
 # Echoes of the City: Urban Sound Classification (1st Place Solution)
 
 > **CSCI-SHU 360: Machine Learning (Fall 2025)**
-> **Result:** 🥇 **1st Place** (91.3% Accuracy on Private Leaderboard) 🥳🎉
+> **Result:** 🥇 **1st Place** (91.3% Accuracy on Private Leaderboard) 🥳🎉🎉🎉
 
 ![Kaggle Score](kaggle_score.png)
 
