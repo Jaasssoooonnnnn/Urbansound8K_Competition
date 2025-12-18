@@ -5,7 +5,6 @@
 *.pth.tar
 
 # --- 数据与日志 ---
-*.csv
 *.log
 *.txt
 !requirements.txt
