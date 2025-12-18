@@ -8,15 +8,15 @@ from pathlib import Path
 # 1. 配置：12个模型列表
 # =========================
 CHOSEN_MODELS = [
-    "chatgpt2/best_model_fold1.csv",
+    "resnet34_mr_salience_fusion_film_attention/best_model_fold1.csv",
     "attention/best_model_fold2.csv",
-    "chatgpt2/best_model_fold4.csv",
+    "resnet34_mr_salience_fusion_film_attention/best_model_fold4.csv",
     "wideresnet/best_model_fold5.csv",
     "res2net50/best_model_fold7.csv",
     "attention/best_model_fold8.csv",
-    "resnet_basic/best_model_fold1.csv",
-    "resnet_basic/best_model_fold6.csv",
-    "best_resnet/best_model_fold1.csv",
+    "resnet34_pcen_sam_8fold/best_model_fold1.csv",
+    "resnet34_pcen_sam_8fold/best_model_fold6.csv",
+    "resnet34_salience_fusion_film_attention/best_model_fold1.csv",
     "resnet_optuna/best_model_fold2.csv",
     "fusion_128/best_model_fold2.csv",
     "resnet_optuna/best_model_fold7.csv"
