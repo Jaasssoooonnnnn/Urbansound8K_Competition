@@ -21,7 +21,7 @@ CHOSEN_MODELS = [
     "fusion_128/best_model_fold2.csv",
     "resnet_optuna/best_model_fold7.csv"
      "resnet_optuna/best_model_fold1.csv",
-      "best_resnet/best_model_fold5.csv"
+      "resnet34_salience_fusion_film_attention/best_model_fold5.csv"
 ]
 
 NUM_CLASSES = 10
