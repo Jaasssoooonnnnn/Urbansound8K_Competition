@@ -1,0 +1,25 @@
+# --- 机器学习大文件 ---
+*.pth
+*.pt
+*.npy
+*.pth.tar
+
+# --- 数据与日志 ---
+*.csv
+*.log
+*.txt
+!requirements.txt
+
+# --- 文件夹排除 ---
+# 排除所有模型权重文件夹
+**/model weights/
+**/res2net50/
+**/densenet121/
+**/wideresnet50/
+
+# --- 操作系统与 IDE ---
+.DS_Store
+.vscode/
+.idea/
+__pycache__/
+*.py[cod]
