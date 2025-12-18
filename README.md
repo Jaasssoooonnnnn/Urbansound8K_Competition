@@ -3,6 +3,8 @@
 > **CSCI-SHU 360: Machine Learning (Fall 2025)**
 > **Result:** 1st Place (91.3% Accuracy on Private Leaderboard)
 
+![Kaggle Score](kaggle_score.png)
+
 ## 🔗 Model Weights
 **Download the trained model weights here:**
 [Google Drive Link](https://drive.google.com/file/d/18OUNVJTVeQfkAwVMrK4f4tACYxl7iZD1/view?usp=drive_link)
