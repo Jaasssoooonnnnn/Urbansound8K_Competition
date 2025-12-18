@@ -1,0 +1,198 @@
+📂 US8K_Comp/  (Root)
+│   ├── evaluate_result.py
+│   ├── requirements.txt
+│   ├── view_structure.py
+│   ├── 📁 FACE/
+│   │   ├── Feature_Extraction_After_Feature_Selection.py
+│   │   ├── face_cheat.py
+│   │   ├── run_face_ensemble.py
+│   │   ├── test_features.npy
+│   │   ├── train_face.py
+│   ├── 📁 sub_model/
+│   │   ├── inference_ensemble.py
+│   │   ├── train_specialist_drill_jack.py
+│   │   ├── train_specialist_sm_ac.py
+│   ├── 📁 ConvextNext/
+│   │   ├── Mixup.py
+│   │   ├── Mixup_SpecAugment_After.py
+│   │   ├── Mixup_SpecAugment_Front.py
+│   │   ├── Mixup_SpecAugment_PCEN.py
+│   │   ├── Mixup_SpecAugment_PCEN_SAM.py
+│   │   ├── basic.py
+│   │   ├── rgb_conv.py
+│   ├── 📁 DenseNet&.Res2Net&.WideResNet/
+│   │   ├── densenet.py
+│   │   ├── res2net50.py
+│   │   ├── wideresnet.py
+│   │   ├── 📁 res2net50/
+│   │   │   ├── best_model_fold1.pth
+│   │   │   ├── best_model_fold2.pth
+│   │   │   ├── best_model_fold3.pth
+│   │   │   ├── best_model_fold4.pth
+│   │   │   ├── best_model_fold5.pth
+│   │   │   ├── best_model_fold6.pth
+│   │   │   ├── best_model_fold7.pth
+│   │   │   ├── best_model_fold8.pth
+│   │   │   ├── submission_res2net_final.csv
+│   │   ├── 📁 densenet121/
+│   │   │   ├── best_model_fold1.pth
+│   │   │   ├── best_model_fold2.pth
+│   │   │   ├── best_model_fold3.pth
+│   │   │   ├── best_model_fold4.pth
+│   │   │   ├── best_model_fold5.pth
+│   │   │   ├── best_model_fold6.pth
+│   │   │   ├── best_model_fold7.pth
+│   │   │   ├── best_model_fold8.pth
+│   │   │   ├── submission_densenet_final.csv
+│   │   ├── 📁 wideresnet50/
+│   │   │   ├── best_model_fold1.pth
+│   │   │   ├── best_model_fold2.pth
+│   │   │   ├── best_model_fold3.pth
+│   │   │   ├── best_model_fold4.pth
+│   │   │   ├── best_model_fold5.pth
+│   │   │   ├── best_model_fold6.pth
+│   │   │   ├── best_model_fold7.pth
+│   │   │   ├── best_model_fold8.pth
+│   │   │   ├── submission_wideresnet_final.csv
+│   ├── 📁 TSCNN/
+│   │   ├── config.py
+│   │   ├── data_preprocess.py
+│   │   ├── dataset.py
+│   │   ├── evaluate_fusion.py
+│   │   ├── models.py
+│   │   ├── train.py
+│   ├── 📁 1D_CNN/
+│   │   ├── dataset.py
+│   │   ├── model.py
+│   │   ├── train.py
+│   ├── 📁 ResNet/
+│   │   ├── baseline_resnet34_logmel.py
+│   │   ├── resnet34_attention.py
+│   │   ├── resnet34_attention_random.py
+│   │   ├── resnet34_mixup_adamw.py
+│   │   ├── resnet34_mr_salience_fusion_film_attention.py
+│   │   ├── resnet34_multires_3channel.py
+│   │   ├── resnet34_pcen_8fold.py
+│   │   ├── resnet34_pcen_salience_fusion.py
+│   │   ├── resnet34_pcen_salience_fusion_attention.py
+│   │   ├── resnet34_pcen_sam_8fold.py
+│   │   ├── resnet34_pcen_trainable.py
+│   │   ├── resnet34_salience_fusion_film_attention.py
+│   │   ├── resnet34_salience_fusion_film_attention_sam_ema.py
+│   │   ├── resnet34_specaug_mixup.py.py
+│   │   ├── tta.py
+│   │   ├── 📁 model weights/
+│   │   │   ├── 📁 resnet34_asp_cbam_mixup_noamp_fixed/
+│   │   │   │   ├── best_model_fold1.pth
+│   │   │   │   ├── best_model_fold2.pth
+│   │   │   │   ├── best_model_fold3.pth
+│   │   │   │   ├── best_model_fold4.pth
+│   │   │   │   ├── best_model_fold5.pth
+│   │   │   │   ├── best_model_fold6.pth
+│   │   │   │   ├── best_model_fold7.pth
+│   │   │   │   ├── best_model_fold8.pth
+│   │   │   │   ├── submission_final_fixed.csv
+│   │   │   ├── 📁 mr_film_attention/
+│   │   │   │   ├── 📁 fold7/
+│   │   │   │   │   ├── fold7_best.pt
+│   │   │   │   │   ├── fold7_log.txt
+│   │   │   │   ├── 📁 fold5/
+│   │   │   │   │   ├── fold5_best.pt
+│   │   │   │   │   ├── fold5_log.txt
+│   │   │   │   ├── 📁 fold3/
+│   │   │   │   │   ├── fold3_best.pt
+│   │   │   │   │   ├── fold3_log.txt
+│   │   │   │   ├── 📁 fold1/
+│   │   │   │   │   ├── fold1_best.pt
+│   │   │   │   │   ├── fold1_log.txt
+│   │   │   │   ├── 📁 fold8/
+│   │   │   │   │   ├── fold8_best.pt
+│   │   │   │   │   ├── fold8_log.txt
+│   │   │   │   ├── 📁 fold6/
+│   │   │   │   │   ├── fold6_best.pt
+│   │   │   │   │   ├── fold6_log.txt
+│   │   │   │   ├── 📁 fold4/
+│   │   │   │   │   ├── fold4_best.pt
+│   │   │   │   │   ├── fold4_log.txt
+│   │   │   │   ├── 📁 fold2/
+│   │   │   │   │   ├── fold2_best.pt
+│   │   │   │   │   ├── fold2_log.txt
+│   │   │   ├── 📁 resnet34_sam_8fold_salience_final/
+│   │   │   │   ├── best_model_fold1.pth
+│   │   │   │   ├── best_model_fold2.pth
+│   │   │   │   ├── best_model_fold3.pth
+│   │   │   │   ├── best_model_fold4.pth
+│   │   │   │   ├── best_model_fold5.pth
+│   │   │   │   ├── best_model_fold6.pth
+│   │   │   │   ├── best_model_fold7.pth
+│   │   │   │   ├── best_model_fold8.pth
+│   │   │   ├── 📁 resnet34_ema/
+│   │   │   │   ├── best_model_fold1.pth
+│   │   │   │   ├── best_model_fold2.pth
+│   │   │   │   ├── best_model_fold3.pth
+│   │   │   │   ├── best_model_fold4.pth
+│   │   │   │   ├── best_model_fold5.pth
+│   │   │   │   ├── best_model_fold6.pth
+│   │   │   │   ├── best_model_fold7.pth
+│   │   │   │   ├── best_model_fold8.pth
+│   │   │   │   ├── submission_fusion_v2.csv
+│   │   │   ├── 📁 resnet34_salience_fusion_film_attention/
+│   │   │   │   ├── best_model_fold1.pth
+│   │   │   │   ├── best_model_fold2.pth
+│   │   │   │   ├── best_model_fold3.pth
+│   │   │   │   ├── best_model_fold4.pth
+│   │   │   │   ├── best_model_fold5.pth
+│   │   │   │   ├── best_model_fold6.pth
+│   │   │   │   ├── best_model_fold7.pth
+│   │   │   │   ├── best_model_fold8.pth
+│   │   │   ├── 📁 resnet_basic/
+│   │   │   │   ├── best_model_fold1.pth
+│   │   │   │   ├── best_model_fold2.pth
+│   │   │   │   ├── best_model_fold3.pth
+│   │   │   │   ├── best_model_fold4.pth
+│   │   │   │   ├── best_model_fold5.pth
+│   │   │   │   ├── best_model_fold6.pth
+│   │   │   │   ├── best_model_fold7.pth
+│   │   │   │   ├── best_model_fold8.pth
+│   │   │   ├── 📁 resnet34_fusion_cbam_asp_salience_64/
+│   │   │   │   ├── best_model_fold1.pth
+│   │   │   │   ├── best_model_fold2.pth
+│   │   │   │   ├── best_model_fold3.pth
+│   │   │   │   ├── best_model_fold4.pth
+│   │   │   │   ├── best_model_fold5.pth
+│   │   │   │   ├── best_model_fold6.pth
+│   │   │   │   ├── best_model_fold7.pth
+│   │   │   │   ├── best_model_fold8.pth
+│   │   │   │   ├── submission_fusion_final.csv
+│   │   │   ├── 📁 resnet34_final_best_200ep/
+│   │   │   │   ├── best_model_fold1.pth
+│   │   │   │   ├── best_model_fold2.pth
+│   │   │   │   ├── best_model_fold3.pth
+│   │   │   │   ├── best_model_fold4.pth
+│   │   │   │   ├── best_model_fold5.pth
+│   │   │   │   ├── best_model_fold6.pth
+│   │   │   │   ├── best_model_fold7.pth
+│   │   │   │   ├── best_model_fold8.pth
+│   │   │   ├── 📁 resnet34_fusion_cbam_asp_salience/
+│   │   │   │   ├── best_model_fold1.pth
+│   │   │   │   ├── best_model_fold2.pth
+│   │   │   │   ├── best_model_fold3.pth
+│   │   │   │   ├── best_model_fold4.pth
+│   │   │   │   ├── best_model_fold5.pth
+│   │   │   │   ├── best_model_fold6.pth
+│   │   │   │   ├── best_model_fold7.pth
+│   │   │   │   ├── best_model_fold8.pth
+│   │   │   │   ├── submission_fusion_final.csv
+│   │   │   ├── 📁 resnet34_asp_cbam_mixup_v2/
+│   │   │   │   ├── best_model_fold1.pth
+│   │   │   │   ├── best_model_fold2.pth
+│   │   │   │   ├── best_model_fold3.pth
+│   │   │   │   ├── best_model_fold4.pth
+│   │   │   │   ├── best_model_fold5.pth
+│   │   │   │   ├── best_model_fold6.pth
+│   │   │   │   ├── best_model_fold7.pth
+│   │   │   │   ├── best_model_fold8.pth
+│   │   │   │   ├── submission_final_fix.csv
+│   │   ├── 📁 optuna/
+│   │   │   ├── optuna.py
+│   │   │   ├── resnet34_pcen_sam_8f_200e.py
